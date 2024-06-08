@@ -1,0 +1,28 @@
+.users-list-table {
+    height:150px;
+    overflow-y:auto;
+    border:1px solid #ccc;
+    padding: 15px;
+    border-radius:5px;
+}
+
+.profile-img {
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-img:hover {
+    border-color:blue;
+}
+
+.border-radius {
+    border-radius:5px;
+}
+
+.profile-img-input {
+    display: none;
+}

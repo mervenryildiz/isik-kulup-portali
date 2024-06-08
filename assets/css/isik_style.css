@@ -1,0 +1,342 @@
+body, html {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: all 0.5s;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    background-color: #f2f2f2;
+  }
+}
+
+.navbar .form-control {
+  height: 50px;
+}
+
+.navbar .btn {
+  min-width: 50px;
+}
+
+.navbar .dropdown.btn {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.intro {
+  position: relative;
+  width: calc(100% - 80px);
+  margin: auto;
+  min-height: 620px;
+  background-image: url("/assets/images/isik-universitesi.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.intro:after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  background-color: rgba(39,54,147, 0.85);
+}
+
+.intro .intro-content {
+  max-width: 800px;
+  width: 100%;
+  padding: 30px 20px;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro .intro-content>div {
+  width: 100%;
+}
+
+.intro .intro-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.intro .intro-content p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    gap: 10px;
+  }
+}
+
+.login-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.login-container .login-header {
+  padding: 20px 0;
+  -webkit-box-shadow: 0px 4px 13px 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 4px 13px 1px rgba(0,0,0,0.05);
+  box-shadow: 0px 4px 13px 1px rgba(0,0,0,0.05);
+  width: 100%;
+  text-align: center;
+}
+
+.login-container .login-body {
+  width: 100%;
+  padding: 40px;
+}
+
+.login-container .login-footer {
+  padding: 20px;
+  color: #cccccc;
+  width: 100%;
+  text-align: center;
+}
+
+.login-form {
+  max-width: 500px;
+  width: 100%;
+  margin:auto;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.1);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.club-item {
+  padding: 30px;
+}
+.club-item .club-image {
+  overflow: hidden;
+}
+.club-item img {
+  transition: all 0.5s;
+}
+
+.club-item:hover img {
+  transform:scale(1.1);
+}
+
+.club-item .card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.mt-5 {
+  margin-top:2rem;
+}
+
+.title-box {
+  background-color: #283691;
+  color:#fff;
+  text-align: center;
+  padding: 40px 15px;
+}
+
+.title-box h1 {
+  font-size: 40px;
+  font-weight: 300;
+  color:#fff;
+  text-transform: uppercase;
+}
+
+.club-intro-img {
+  padding: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 20px;
+  border:1px solid #cccccc;
+}
+
+.club-intro-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+
+}
+
+.section {
+  position: relative;
+  padding: 50px 0;
+}
+
+.club-intro-box {
+  padding: 30px;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+}
+
+.club-intro-box h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #283691;
+}
+
+.event-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.event-location {
+  font-size: 16px;
+}
+
+.event-item h4 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.event-item  .card-img-top {
+  object-fit: cover;
+  object-position: center;
+}
+
+.sub-title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.event-info-list {
+  width: 100%;
+}
+
+.event-info-list .list-group-item {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.event-club-list {
+  display: flex;
+  gap:5px;
+  flex-wrap: wrap;
+}
+
+.profile-img {
+  border-radius: 5px;
+  border:1px solid #ccc;
+  padding: 5px;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-img:hover {
+  border-color:blue;
+}
+
+.profile-img-input {
+  display: none;
+}
+
+.tab-pane {
+  padding-top: 40px;
+}
+
+.tab-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.tab-header h4 {
+  margin-bottom: 0;
+}
+
+.announ-btn {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.announ-btn .announ-alert {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: red;
+  right:-4px;
+  top:-4px;
+}

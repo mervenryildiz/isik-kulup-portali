@@ -45,6 +45,16 @@ require_once __DIR__."/connection.php";
                 <div class="col-12">
                     <button class="btn btn-primary w-100 formsubmitbutton btn-lg" type="submit">Kod Gönder</button>
                 </div>
+                <div class="row pt-4">
+                    <div class="col-6">
+                        <a href="login.php" class="btn btn-outline-secondary w-100 ">Giriş Yap</a>
+                    </div>
+
+                    <div class="col-6">
+                        <a href="sign-up.php" class="btn btn-outline-secondary w-100">Kaydol</a>
+                    </div>
+                </div>
+
             </form>
         </div>
     </div>
